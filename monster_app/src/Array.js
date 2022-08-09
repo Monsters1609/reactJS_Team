@@ -1,0 +1,79 @@
+export const arr=[
+    {
+        id:1,
+        link:"http://localhost:3000",
+        name:"Monster",
+    },
+    {
+        id:2,
+        link:"http://10.61.21.67:3000",
+        name:"Monster",
+    },
+    {
+        id:3,
+        link:"https://fullstack.edu.vn/",
+        name:"F8",
+    },
+    {
+        id:4,
+        link:"https://www.w3schools.com/",
+        name:"w3schools",
+    },
+    {
+        id:5,
+        link:"https://github.com/",
+        name:"Github",
+    },
+    {
+        id:6,
+        link:"https://reactjs.org/",
+        name:"reactjs",
+    }
+]
+export const arrayUser=[
+    {
+        id:"1",
+        name:"Đạt",
+        age:"21",
+        gender:"Male",
+        phone:"0949896390",
+        email:"ducdat169@gmail.com",
+        socialNetwork:"https://www.facebook.com/dat.nguyenduc.3344/",
+    },
+    {
+        id:"2",
+        name:"Xuân Nhi",
+        age:"13",
+        gender:"female",
+        phone:"0978346723",
+        email:"xuannhi@gmail.com",
+        socialNetwork:"https://www.facebook.com/profile.php?id=100011303987398",
+    },
+    {
+        id:"3",
+        name:"Linh Chi",
+        age:"11",
+        gender:"female",
+        phone:"0967389231",
+        email:"linhchi@gmail.com",
+        socialNetwork:"https://www.facebook.com/profile.php?id=100011303987398",
+    },
+    {
+        id:"4",
+        name:"Đạt Anh",
+        age:"15",
+        gender:"male",
+        phone:"0707082558",
+        email:"datanh134@gmail.com",
+        socialNetwork:"https://www.facebook.com/ducdat.nguyen.7777/",
+    },
+    {
+        id:"5",
+        name:"Long Thịnh",
+        age:"10",
+        gender:"male",
+        phone:"0707082558",
+        email:"thing0209@gmail.com",
+        socialNetwork:"https://www.facebook.com/hoangthi.dung.982",
+    },
+]

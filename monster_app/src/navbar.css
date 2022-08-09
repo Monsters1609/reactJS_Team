@@ -1,0 +1,157 @@
+@media only screen and (max-width:1031px) {
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Yellowtail&display=swap');
+    #menu{
+        background: url(https://image.shutterstock.com/image-vector/vector-black-geometric-background-design-260nw-1223389576.jpg);
+        width: 100%;
+        height: 55px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    #menu #items{
+        width: 590px;
+        position: absolute;
+        left: 10px;
+    }
+    #menu #search{
+        width: 260px;
+        position: absolute;
+        left: 720px;
+    }
+    #menu #login{
+        width: 150px;
+        position: absolute;
+        left: 1080px;
+    }
+    #menu #setting{
+        width: 100px;
+        position: absolute;
+        left: 1240px;
+    }
+}
+@media only screen and (min-width: 1031px) {
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Pacifico&family=Yellowtail&display=swap');
+    #menu{
+        background: url(https://image.shutterstock.com/image-vector/vector-black-geometric-background-design-260nw-1223389576.jpg);
+        width: 100%;
+        height: 55px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        position: fixed;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    } 
+    #menu #items{
+        width: 590px;
+        height: 50px;
+        position: absolute;
+        left: 10px;
+    }
+    #menu #search{
+        width: 260px;
+        position: absolute;
+        left: 720px;
+    }
+    #menu #login{
+        width: 150px;
+        position: absolute;
+        left: 1050px;
+    }
+    #menu #setting{
+        width: 100px;
+        position: absolute;
+        left: 1240px;
+    }
+    #menu #items .listItemsMenu{
+        width: 590px;
+        height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        list-style: none;
+    }
+    #menu #items .listItemsMenu .itemMenu{
+        width:98.3px;
+    }
+    #menu #items .listItemsMenu .itemMenu .linkItem{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        position: absolute;
+        top: 6px;
+    }
+    #menu #items .listItemsMenu .itemMenu .btnHome{
+        font-size: 25px;
+        color: greenyellow;
+        text-decoration: none;
+        font-family: 'Pacifico', cursive;
+        position: absolute;
+        top: 2px;
+    }
+    #menu #items .listItemsMenu .itemMenu .linkItem .logo{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: -6px;
+    }      
+    #iconSetting{
+        color: white;
+        font-size: 20px;
+    }
+    #menu #login button{
+        width: 120px;
+        height: 30px;
+        font-size: 12.5px;
+        font-weight: bold;
+        background: none;
+        border-radius: 5px;
+        color:#32A5E7;
+        border:1px #0D6EFD solid;
+        background-color: #0d6dfd1f;
+    }
+    #menu #search #formSearch{
+        width:260px;
+        height: 35px;
+        border: 1px yellowGreen solid;
+        border-radius:5px;
+        background-color: rgba(255, 255, 255, 0.136);
+    }
+    #menu #search input{
+        width: 182px;
+        height: 36px;
+        position: relative;
+        left: -1px;
+        top: -1px;
+        border:none;
+        color: white;
+        font-weight: bold;
+        border-radius:5px;
+        font-size: 16px;
+        outline:none;
+        background: none; 
+        font-family: 'Lobster', cursive;
+    }
+    #menu #search button{
+        width: 76px;
+        height: 33px;
+        font-size: 16px;
+        font-weight: bold;
+        background: none;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color:white;
+        border: none;
+        border-left:1px yellowGreen solid;
+        background-color: rgba(255, 255, 255, 0.136);
+        position:relative;
+        top:-2px;
+        left:0px;
+        font-family: 'Dancing Script', cursive;
+    }
+}
